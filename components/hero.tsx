@@ -122,7 +122,7 @@ export function Hero() {
 
                             <div className="relative grid gap-4">
                                 <div className="overflow-hidden rounded-[1.6rem] border border-white/10 bg-white/3">
-                                    <div className="relative aspect-[1.12/1] overflow-hidden sm:aspect-[1.28/1]">
+                                    <div className="relative aspect-[1.12/1] overflow-hidden">
                                         <div className="absolute right-4 top-4 z-10 inline-flex items-center gap-2 rounded-full border border-white/12 bg-night/70 px-3 py-2 text-[11px] font-medium tracking-[0.18em] text-white/80 backdrop-blur-xl sm:text-xs">
                                             Amir Tofigh
                                         </div>

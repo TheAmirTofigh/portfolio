@@ -291,7 +291,7 @@ export const projects: Project[] = [
         stack: ["Next.js", "TypeScript", "Tailwind", "Motion", "React", "Responsive UI"],
         impact: "Personal Brand",
         status: "Live Portfolio",
-        url: "https://amirtofigh.vercel.com"
+        url: "https://amirtofigh.vercel.app"
     }
 ];
 
