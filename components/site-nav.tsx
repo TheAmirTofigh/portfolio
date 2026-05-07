@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import {useEffect, useMemo, useState} from "react";
-import {ArrowUpRight, Sparkles} from "lucide-react";
-import {motion, useReducedMotion} from "motion/react";
-import {NavIcon} from "@/components/nav-icons";
-import {ScrollProgress} from "@/components/scroll-progress";
-import {navItems, profile} from "@/data/portfolio";
+import { useEffect, useMemo, useState } from "react";
+import { ArrowUpRight, Sparkles } from "lucide-react";
+import { motion, useReducedMotion } from "motion/react";
+import { NavIcon } from "@/components/nav-icons";
+import { ScrollProgress } from "@/components/scroll-progress";
+import { navItems, profile } from "@/data/portfolio";
 
 type NavId = "work" | "systems" | "projects" | "skills" | "contact";
 
@@ -89,7 +89,7 @@ export function SiteNav() {
         };
 
         update();
-        window.addEventListener("scroll", scheduleUpdate, {passive: true});
+        window.addEventListener("scroll", scheduleUpdate, { passive: true });
         window.addEventListener("resize", scheduleUpdate);
 
         return () => {
@@ -104,12 +104,12 @@ export function SiteNav() {
 
     return (
         <>
-            <ScrollProgress/>
+            <ScrollProgress />
             <motion.header
                 className="fixed left-0 right-0 top-3 z-50 px-3 sm:top-6 sm:px-4"
-                initial={reduceMotion ? false : {y: -18, opacity: 0}}
-                animate={reduceMotion ? undefined : {y: isHeaderVisible ? 0 : -88, opacity: isHeaderVisible ? 1 : 0}}
-                transition={{duration: 0.34, ease: [0.22, 1, 0.36, 1]}}
+                initial={reduceMotion ? false : { y: -18, opacity: 0 }}
+                animate={reduceMotion ? undefined : { y: isHeaderVisible ? 0 : -88, opacity: isHeaderVisible ? 1 : 0 }}
+                transition={{ duration: 0.34, ease: [0.22, 1, 0.36, 1] }}
             >
                 <nav
                     aria-label="Primary navigation"
@@ -124,8 +124,7 @@ export function SiteNav() {
                         className="focus-ring group flex min-w-0 items-center gap-2 rounded-full"
                         aria-label="Back to top"
                     >
-                        <span
-                            className="grid size-10 shrink-0 place-items-center rounded-full border border-white/10 bg-white/6 transition group-hover:border-cyan-glow/30 group-hover:bg-white/9">
+                        <span className="grid size-10 shrink-0 place-items-center rounded-full border border-white/10 bg-white/6 transition group-hover:border-cyan-glow/30 group-hover:bg-white/9">
                             <Image
                                 src="/logo-mark.png"
                                 alt="Amir Tofigh logo"
@@ -137,8 +136,7 @@ export function SiteNav() {
                         </span>
                         <span className="flex min-w-0 flex-col">
                             <span className="truncate text-sm font-semibold leading-none text-white">Amir Tofigh</span>
-                            <span
-                                className="mt-1 hidden truncate text-[12px] uppercase tracking-[0.16em] text-white/45 sm:flex">
+                            <span className="mt-1 hidden truncate text-[12px] uppercase tracking-[0.16em] text-white/45 sm:flex">
                                 Senior Front-End Engineer
                             </span>
                         </span>
@@ -162,7 +160,7 @@ export function SiteNav() {
                                         <motion.span
                                             layoutId="desktop-active-section"
                                             className="absolute inset-0 -z-10 rounded-full border border-cyan-glow/20 bg-cyan-glow/10"
-                                            transition={{duration: 0.28, ease: [0.22, 1, 0.36, 1]}}
+                                            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
                                         />
                                     )}
                                     {item.label}
@@ -175,7 +173,7 @@ export function SiteNav() {
                         href={`mailto:${profile.email}`}
                         className="focus-ring group inline-flex shrink-0 items-center gap-2 rounded-full border border-cyan-glow/20 bg-cyan-glow/10 px-3 py-2 text-sm font-medium text-cyan-100 transition hover:border-cyan-glow/45 hover:bg-cyan-glow/15 sm:px-4"
                     >
-                        <Sparkles className="size-4" aria-hidden="true"/>
+                        <Sparkles className="size-4" aria-hidden="true" />
                         <span className="inline">Hire me</span>
                         <ArrowUpRight
                             className="size-4 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
@@ -207,7 +205,7 @@ export function SiteNav() {
                                     <motion.span
                                         layoutId="mobile-active-section"
                                         className="absolute inset-0 -z-10 rounded-[1.2rem] border border-cyan-glow/20 bg-cyan-glow/12 shadow-[0_0_28px_rgba(103,232,249,0.14)]"
-                                        transition={{duration: 0.28, ease: [0.22, 1, 0.36, 1]}}
+                                        transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
                                     />
                                 )}
                                 <NavIcon

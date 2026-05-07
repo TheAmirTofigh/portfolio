@@ -1,7 +1,7 @@
-import type {ReactNode} from "react";
-import type {Viewport} from "next";
-import {Inter, JetBrains_Mono} from "next/font/google";
-import {defaultMetadata} from "@/data/seo";
+import type { ReactNode } from "react";
+import type { Viewport } from "next";
+import { Inter, JetBrains_Mono } from "next/font/google";
+import { defaultMetadata } from "@/data/seo";
 import "./globals.css";
 
 const inter = Inter({
@@ -25,10 +25,10 @@ export const viewport: Viewport = {
     initialScale: 1
 };
 
-export default function RootLayout({children}: Readonly<{ children: ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
     return (
         <html lang="en" className={`${inter.variable} ${jetbrains.variable}`} suppressHydrationWarning>
-        <body>{children}</body>
+            <body>{children}</body>
         </html>
     );
 }
