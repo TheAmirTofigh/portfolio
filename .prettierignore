@@ -1,0 +1,14 @@
+.next
+node_modules
+dist
+out
+coverage
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+public/*.pdf
+public/*.png
+public/*.jpg
+public/*.jpeg
+public/*.webp
+public/*.ico

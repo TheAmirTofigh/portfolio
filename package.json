@@ -1,0 +1,41 @@
+{
+    "name": "amir-tofigh-portfolio",
+    "version": "1.0.0",
+    "private": true,
+    "description": "A premium dark portfolio website for Amir Tofigh, Senior Front-End Engineer, built with Next.js, TypeScript, Tailwind CSS, Motion, and Lucide.",
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint .",
+        "typecheck": "tsc --noEmit",
+        "format": "prettier . --write",
+        "format:check": "prettier . --check"
+    },
+    "dependencies": {
+        "@tailwindcss/postcss": "^4.2.4",
+        "lucide-react": "^1.14.0",
+        "motion": "^12.38.0",
+        "next": "^16.2.6",
+        "next-themes": "^0.4.6",
+        "postcss": "^8.5.5",
+        "react": "^19.2.6",
+        "react-dom": "^19.2.6",
+        "tailwindcss": "^4.2.4"
+    },
+    "devDependencies": {
+        "@types/node": "^25.6.1",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "eslint": "^10.3.0",
+        "eslint-config-next": "^16.2.6",
+        "typescript": "^6.0.3",
+        "@eslint/eslintrc": "^3.3.5",
+        "prettier": "^3.8.3"
+    },
+    "engines": {
+        "node": ">=22.0.0",
+        "pnpm": ">=10.0.0"
+    },
+    "packageManager": "pnpm@10.0.0"
+}

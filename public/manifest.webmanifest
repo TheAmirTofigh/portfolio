@@ -1,0 +1,20 @@
+{
+    "name": "Amir Tofigh Portfolio",
+    "short_name": "Amir Tofigh",
+    "description": "Senior Front-End Engineer portfolio focused on Next.js, OTA platforms, white-label systems, and real-time product interfaces.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#05070c",
+    "theme_color": "#05070c",
+    "orientation": "portrait-primary",
+    "categories": ["portfolio", "developer", "technology"],
+    "icons": [
+        {
+            "src": "/logo-mark-256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
