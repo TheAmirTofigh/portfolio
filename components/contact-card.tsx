@@ -28,12 +28,12 @@ export function ContactCard() {
                                     Contact
                                 </p>
                                 <h2 className="mt-4 text-balance text-[2rem] md:text-[2.8rem] font-bold leading-[1.1] tracking-[-0.065em] text-white">
-                                    Need a Senior{" "}
-                                    <span className="inline-block whitespace-nowrap text-gradient"> Front-End </span>
-                                    Engineer for a Serious Product Surface?
+                                    Looking for a Senior{" "}
+                                    <span className="text-gradient whitespace-nowrap"> Front-End </span> Engineer Who
+                                    Can Own the Whole Front?
                                 </h2>
                                 <p className="mt-6 max-w-2xl text-pretty text-base leading-8 text-soft">
-                                    I can help with Next.js architecture, OTA booking flows, real-time dashboards,
+                                    I can help with Next.js architecture, complex booking flows, real-time dashboards,
                                     white-label front-end systems, admin panels, localization, Core Web Vitals, and
                                     premium responsive UI delivery.
                                 </p>
@@ -42,7 +42,7 @@ export function ContactCard() {
                             <div className="min-w-0 space-y-3">
                                 <Link
                                     href={`mailto:${profile.email}`}
-                                    className="focus-ring group flex min-w-0 items-center justify-between gap-4 rounded-3xl border border-white/10 bg-white/4.5 p-4 text-white transition hover:border-cyan-glow/35 hover:bg-cyan-glow/10 sm:p-5"
+                                    className="focus-ring group flex min-w-0 items-center justify-between gap-4 rounded-3xl border border-white/10 bg-white/4.5 p-4 text-soft transition hover:border-cyan-glow/35 hover:bg-cyan-glow/10 hover:text-white! sm:p-5"
                                 >
                                     <span className="flex min-w-0 items-center gap-3">
                                         <Mail className="size-5 shrink-0 text-cyan-glow" aria-hidden="true" />
@@ -57,7 +57,7 @@ export function ContactCard() {
                                     href={profile.linkedIn}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="focus-ring group flex min-w-0 items-center justify-between gap-4 rounded-3xl border border-white/10 bg-white/[0.035] p-4 text-white transition hover:border-violet-glow/35 hover:bg-violet-glow/10 hover:text-white sm:p-5"
+                                    className="focus-ring group flex min-w-0 items-center justify-between gap-4 rounded-3xl border border-white/10 bg-white/[0.035] p-4 text-soft transition hover:border-violet-glow/35 hover:bg-violet-glow/10 hover:text-white! sm:p-5"
                                 >
                                     <span className="flex min-w-0 items-center gap-3">
                                         <LinkedInIcon className="size-5 shrink-0 text-violet-glow" />
@@ -72,10 +72,10 @@ export function ContactCard() {
                                     href={`tel:${profile.phone}`}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="focus-ring group flex min-w-0 items-center justify-between gap-4 rounded-3xl border border-white/10 bg-white/[0.035] p-4 text-white transition hover:border-violet-glow/35 hover:bg-violet-glow/10 hover:text-white sm:p-5"
+                                    className="focus-ring group flex min-w-0 items-center justify-between gap-4 rounded-3xl border border-white/10 bg-white/[0.035] p-4 text-soft transition hover:border-emerald-glow/35 hover:bg-emerald-glow/10 hover:text-white! sm:p-5"
                                 >
                                     <span className="flex min-w-0 items-center gap-3">
-                                        <Phone className="size-5 shrink-0 text-violet-glow" aria-hidden="true" />
+                                        <Phone className="size-5 shrink-0 text-emerald-glow" aria-hidden="true" />
                                         <span className="break-all">{profile.phoneBreak}</span>
                                     </span>
                                     <ArrowUpRight
@@ -84,7 +84,7 @@ export function ContactCard() {
                                     />
                                 </Link>
                                 <div className="flex min-w-0 items-center gap-3 rounded-3xl border border-white/10 bg-white/[0.035] p-4 text-soft sm:p-5">
-                                    <MapPin className="size-5 shrink-0 text-emerald-glow" aria-hidden="true" />
+                                    <MapPin className="size-5 shrink-0 text-cyan-glow" aria-hidden="true" />
                                     <span>{profile.location}</span>
                                 </div>
                             </div>

@@ -34,7 +34,7 @@ export function Hero() {
                         <div className="inline-flex max-w-full items-center gap-2 rounded-full border border-cyan-glow/20 bg-cyan-glow/10 px-3 py-2 text-xs text-cyan-100 shadow-soft-glow sm:px-4 sm:text-sm">
                             <Sparkles className="size-4 shrink-0" aria-hidden="true" />
                             <TypewriterText
-                                text="Senior front-end work across travel, fintech, crypto, and AI products."
+                                text="Senior front-end work across complex, high-traffic, and data-intensive products."
                                 speed={18}
                                 delay={260}
                                 className="min-w-0 text-center sm:text-start"
@@ -47,7 +47,7 @@ export function Hero() {
                     </Reveal>
 
                     <Reveal delay={0.18}>
-                        <p className="text-center sm:text-start mt-7 max-w-2xl text-pretty text-base leading-8 text-soft md:text-lg">
+                        <p className="text-center sm:text-start mt-7 max-w-2xl text-pretty text-base leading-8 text-soft">
                             {profile.intro}
                         </p>
                     </Reveal>
@@ -164,31 +164,43 @@ export function Hero() {
                                 <div className="relative rounded-[1.6rem] border border-white/10 bg-night/80 px-4 py-2.5 shadow-2xl">
                                     <div className="overflow-x-auto font-mono text-xs leading-6">
                                         <p className="text-soft">
-                                            <span className="text-orange-500/75">const </span> ENGINEER = &#123;
+                                            <span className="text-orange-400/85">const </span>
+                                            <span className="text-white"> ENGINEER </span> = &#123;
                                         </p>
-                                        <p className="ms-4">
+                                        <p className="ms-4 text-soft">
                                             <span className="text-violet-glow">name</span>:{" "}
                                             <span className="text-cyan-glow">&quot;{profile.name}&quot;</span>,
                                         </p>
-                                        <p className="ms-4">
+                                        <p className="ms-4 text-soft">
                                             <span className="text-violet-glow">role</span>:{" "}
                                             <span className="text-cyan-glow">&quot;{profile.role}&quot;</span>,
                                         </p>
-                                        <p className="ms-4">
+                                        <p className="ms-4 text-soft">
                                             <span className="text-violet-glow">domain</span>:{" "}
-                                            <span className="text-cyan-glow">&quot;OTA + Fintech + AI&quot;</span>,
-                                        </p>
-                                        <p className="ms-4">
-                                            <span className="text-violet-glow">systems</span>:{" "}
                                             <span className="text-cyan-glow">
-                                                [&quot;Booking&quot;, &quot;White-Label&quot;, &quot;Real-Time&quot;]
+                                                &quot;Product Engineering + OTA + Real-Time UI&quot;
                                             </span>
                                             ,
                                         </p>
-                                        <p className="ms-4">
+                                        <p className="ms-4 text-soft">
+                                            <span className="text-violet-glow">systems</span>:{" "}
+                                            <span className="text-cyan-glow">
+                                                <span className="text-soft">[</span>
+                                                &quot;Multi-Tenant&quot;<span className="text-soft">, </span>
+                                                &quot;Booking&quot;<span className="text-soft">, </span>
+                                                &quot;Real-Time&quot;
+                                                <span className="text-soft">]</span>
+                                            </span>
+                                            ,
+                                        </p>
+                                        <p className="ms-4 text-soft">
                                             <span className="text-violet-glow">standard</span>:{" "}
                                             <span className="text-cyan-glow">
-                                                [&quot;Fast&quot;, &quot;Polished&quot;, &quot;Scalable&quot;]
+                                                <span className="text-soft">[</span>
+                                                &quot;Fast&quot;<span className="text-soft">, </span>
+                                                &quot;Polished&quot;<span className="text-soft">, </span>
+                                                &quot;Scalable&quot;
+                                                <span className="text-soft">]</span>
                                             </span>
                                             ,
                                         </p>

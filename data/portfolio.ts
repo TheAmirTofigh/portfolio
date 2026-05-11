@@ -28,15 +28,15 @@ export type FocusArea = {
 export const profile = {
     name: "Amir Tofigh",
     role: "Senior Front-End Engineer",
-    location: "Tabriz, Iran · Open to relocate",
+    location: "Iran · Available for remote, hybrid, or relocation",
     email: "amir.tgh1381@gmail.com",
     phone: "+989032522311",
     phoneBreak: "+98 903 252 2311",
     linkedIn: "https://linkedin.com/in/amirtofigh",
     headline:
         "Senior Front-End Engineer building large-scale OTA platforms, white-label systems, and real-time product interfaces.",
-    intro: "I lead front-end architecture for production-grade booking, fintech, crypto, and AI products - turning complex data, supplier APIs, and multi-tenant requirements into fast, polished, maintainable experiences.",
-    availability: "Open to senior front-end, Next.js, OTA, real-time UI, and product engineering roles.",
+    intro: "I lead front-end architecture on high-traffic, data-intensive products, turning multi-service flows, supplier APIs, and multi-tenant requirements into fast, polished, maintainable experiences.",
+    availability: "Open to senior front-end, React.js, Next.js, OTA, real-time UI, and product engineering roles.",
     resumePath: "/Amir-Tofigh-Resume.pdf",
     socials: [
         { label: "Email", href: "mailto:amir.tgh1381@gmail.com" },
@@ -70,7 +70,7 @@ export const experiences: Experience[] = [
         summary:
             "Leading front-end architecture across GoToSafar's OTA ecosystem, including the main booking platform, admin panel, GoToCruise, and partner white-label deployments.",
         achievements: [
-            "Led the front-end of multi-service booking flows for flights, hotels, cruises, residences, car rental, transfers, tours, and visa products.",
+            "Architected front-end flows for a multi-service platform spanning 8 product verticals, coordinating complex state, supplier APIs, and user journeys across each.",
             "Built a scalable white-label system that powers multiple independently branded travel agency platforms from one shared front-end core.",
             "Improved Core Web Vitals and production performance through bundle optimization, rendering strategy, and performance-first architecture."
         ],

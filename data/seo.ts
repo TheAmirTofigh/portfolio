@@ -12,7 +12,7 @@ export const siteConfig = {
     name: `${profile.name} Portfolio`,
     title: `${profile.name} - ${profile.role}`,
     description:
-        "Senior Front-End Engineer portfolio focused on Next.js, React, TypeScript, OTA platforms, white-label systems, real-time interfaces, and polished product UI.",
+        "Senior Front-End Engineer portfolio focused on Next.js, React, TypeScript, complex product platforms, white-label systems, real-time interfaces, and polished UI.",
     url: siteUrl,
     locale: "en_US",
     ogImage: "/opengraph-image",

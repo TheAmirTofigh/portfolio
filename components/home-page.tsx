@@ -28,7 +28,7 @@ export function HomePage() {
                 <section id="work" className="section-shell py-8 md:py-16">
                     <SectionHeading
                         eyebrow="Experience"
-                        title="Senior Front-End Work Across Travel, Fintech, Crypto, and AI Products"
+                        title="Senior Front-End Work Across Complex, High-Traffic Product Systems"
                         description="My strongest work sits at the intersection of polished UI craft and production engineering: complex booking flows, admin systems, real-time trading interfaces, supplier APIs, and scalable architecture."
                     />
                     <ExperienceTimeline />
@@ -82,7 +82,7 @@ export function HomePage() {
                 <section id="projects" className="section-shell py-8 md:py-16">
                     <SectionHeading
                         eyebrow="Selected Projects"
-                        title="Proof of Senior-Level Product Ownership"
+                        title="Projects That Required Senior-Level Engineering Judgment"
                         description="These projects show the range behind the resume: OTA platforms, white-label architecture, real-time crypto systems, AI interfaces, full-stack utilities, visa booking, and e-commerce delivery."
                     />
                     <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
@@ -114,8 +114,9 @@ export function HomePage() {
                                         Positioning
                                     </p>
                                     <h2 className="mt-4 text-balance text-[1.6rem] md:text-[2.5rem] font-bold leading-[1.2] tracking-[-0.06em] text-white">
-                                        I'm Strongest Where Product Complexity, Data Flow, and{" "}
-                                        <span className="text-gradient">Premium UI</span> Need to Work Together
+                                        I Work Best Where <span className="text-gradient"> Product </span> Complexity,
+                                        Data Flow, and <span className="text-gradient"> Engineering </span> Craft
+                                        Intersect
                                     </h2>
                                 </div>
                                 <div className="grid gap-3 sm:grid-cols-2">
