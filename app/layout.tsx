@@ -1,8 +1,9 @@
 import type { ReactNode } from "react";
-import type { Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { defaultMetadata } from "@/data/seo";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -16,7 +17,7 @@ const jetbrains = JetBrains_Mono({
     display: "swap"
 });
 
-export const metadata = defaultMetadata;
+export const metadata: Metadata = defaultMetadata;
 
 export const viewport: Viewport = {
     themeColor: "#05070c",
@@ -28,7 +29,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
     return (
         <html lang="en" className={`${inter.variable} ${jetbrains.variable}`} suppressHydrationWarning>
-            <body>{children}</body>
+            <body>
+                {children}
+                <Analytics />
+            </body>
         </html>
     );
 }
