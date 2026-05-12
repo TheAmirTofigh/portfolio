@@ -4,6 +4,7 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import { defaultMetadata } from "@/data/seo";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 
 const inter = Inter({
     subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
             <body>
                 {children}
                 <Analytics />
+                <SpeedInsights />
             </body>
         </html>
     );
