@@ -1,6 +1,6 @@
 # Amir Tofigh Portfolio
 
-A premium dark portfolio for **Amir Tofigh**, a Senior Front-End Engineer focused on Next.js, React, TypeScript, OTA platforms, white-label systems, real-time dashboards, and polished product interfaces.
+A premium dark portfolio for **Amir Tofigh**, a Front-End Developer focused on React, Next.js, TypeScript, production web applications, dashboards, booking flows, API-driven products, and responsive UI.
 
 The project is built as a production-ready personal brand website: strong SEO defaults, responsive UI, refined motion, server-rendered structured data, clean project data, and a public GitHub-friendly README.
 

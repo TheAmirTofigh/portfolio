@@ -28,8 +28,8 @@ export function HomePage() {
                 <section id="work" className="section-shell py-8 md:py-16">
                     <SectionHeading
                         eyebrow="Experience"
-                        title="Senior Front-End Work Across Complex, High-Traffic Product Systems"
-                        description="My strongest work sits at the intersection of polished UI craft and production engineering: complex booking flows, admin systems, real-time trading interfaces, supplier APIs, and scalable architecture."
+                        title="Front-End Experience Across Production Web Applications"
+                        description="My work covers scalable dashboards, admin panels, booking flows, real-time interfaces, and API-driven products across travel, fintech, crypto, AI, and e-commerce."
                     />
                     <ExperienceTimeline />
                 </section>
@@ -37,8 +37,8 @@ export function HomePage() {
                 <section id="systems" className="section-shell py-8 md:py-16">
                     <SectionHeading
                         eyebrow="System Strengths"
-                        title="Built for Complex Products, Not Just Beautiful Screens"
-                        description="The portfolio is positioned around the systems I have actually shipped: multi-service OTA flows, partner white-label platforms, real-time dashboards, and performance-focused Next.js architecture."
+                        title="Built for Production Products, Not Just Beautiful Screens"
+                        description="The portfolio is positioned around the front-end work I have shipped: production React applications, dashboards, booking journeys, API integrations, responsive UI, localization, and maintainable architecture."
                     />
                     <div className="grid gap-5 md:grid-cols-2">
                         {focusAreas.map((area, index) => {
@@ -82,8 +82,8 @@ export function HomePage() {
                 <section id="projects" className="section-shell py-8 md:py-16">
                     <SectionHeading
                         eyebrow="Selected Projects"
-                        title="Projects That Required Senior-Level Engineering Judgment"
-                        description="These projects show the range behind the resume: OTA platforms, white-label architecture, real-time crypto systems, AI interfaces, full-stack utilities, visa booking, and e-commerce delivery."
+                        title="Selected Projects Across Front-End Product Work"
+                        description="These projects show the range behind the resume: travel booking, white-label products, real-time crypto interfaces, AI platforms, full-stack utilities, visa services, e-commerce, and personal branding."
                     />
                     <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
                         {projects.map((project, index) => (
@@ -95,8 +95,8 @@ export function HomePage() {
                 <section id="skills" className="section-shell py-8 md:py-16">
                     <SectionHeading
                         eyebrow="Skill Stack"
-                        title="Modern React Engineering with Systems-Level Front-End Thinking"
-                        description="A focused stack around Next.js, TypeScript, Redux Toolkit, API integration, real-time state, performance, localization, analytics, and highly responsive UI systems."
+                        title="Modern React / Next.js Front-End Stack"
+                        description="A focused stack around React, Next.js, TypeScript, Redux Toolkit, API integration, WebSocket updates, performance, localization, analytics, and responsive UI systems."
                     />
                     <SkillsPanel />
                 </section>
@@ -114,17 +114,16 @@ export function HomePage() {
                                         Positioning
                                     </p>
                                     <h2 className="mt-4 text-balance text-[1.6rem] md:text-[2.5rem] font-bold leading-[1.2] tracking-[-0.06em] text-white">
-                                        I Work Best Where <span className="text-gradient"> Product </span> Complexity,
-                                        Data Flow, and <span className="text-gradient"> Engineering </span> Craft
-                                        Intersect
+                                        I Build <span className="text-gradient"> Production </span> Front-Ends That Stay Fast,
+                                        Responsive, and <span className="text-gradient"> Maintainable </span> as Products Grow
                                     </h2>
                                 </div>
                                 <div className="grid gap-3 sm:grid-cols-2">
                                     {[
-                                        "Booking engines and reservation journeys",
-                                        "Multi-tenant white-label platforms",
-                                        "Real-Time trading and operational dashboards",
-                                        "Localization, performance, and analytics architecture"
+                                        "Dashboards, admin panels, and booking journeys",
+                                        "API-driven products and reusable UI systems",
+                                        "Real-time interfaces and data-heavy screens",
+                                        "Localization, performance, analytics, and responsive UI"
                                     ].map((item, index) => (
                                         <motion.div
                                             key={item}

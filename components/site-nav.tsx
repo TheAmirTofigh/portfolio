@@ -137,7 +137,7 @@ export function SiteNav() {
                         <span className="flex min-w-0 flex-col">
                             <span className="truncate text-sm font-semibold leading-none text-white">Amir Tofigh</span>
                             <span className="mt-1 hidden truncate text-[12px] uppercase tracking-[0.16em] text-white/45 sm:flex">
-                                Senior Front-End Engineer
+                                Front-End Developer
                             </span>
                         </span>
                     </Link>

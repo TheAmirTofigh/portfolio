@@ -44,17 +44,19 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
 
                         <p className="text-pretty text-sm leading-7 text-soft">{project.summary}</p>
 
-                        <ul className="mt-7 space-y-3">
-                            {project.details.map((detail) => (
-                                <li key={detail} className="flex gap-3 text-sm leading-6 text-mist/85">
-                                    <CheckCircle2
-                                        className="mt-0.5 size-4 shrink-0 text-emerald-glow"
-                                        aria-hidden="true"
-                                    />
-                                    <span>{detail}</span>
-                                </li>
-                            ))}
-                        </ul>
+                        {project.details.length > 0 && (
+                            <ul className="mt-7 space-y-3">
+                                {project.details.map((detail) => (
+                                    <li key={detail} className="flex gap-3 text-sm leading-6 text-mist/85">
+                                        <CheckCircle2
+                                            className="mt-0.5 size-4 shrink-0 text-emerald-glow"
+                                            aria-hidden="true"
+                                        />
+                                        <span>{detail}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
 
                         <div className="mt-8 flex flex-wrap gap-2">
                             {project.stack.map((item) => (

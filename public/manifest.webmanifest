@@ -1,7 +1,7 @@
 {
     "name": "Amir Tofigh Portfolio",
     "short_name": "Amir Tofigh",
-    "description": "Senior Front-End Engineer portfolio focused on Next.js, OTA platforms, white-label systems, and real-time product interfaces.",
+    "description": "Front-End Developer portfolio focused on React, Next.js, TypeScript, production web applications, dashboards, booking flows, and responsive UI.",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",

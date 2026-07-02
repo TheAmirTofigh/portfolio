@@ -21,7 +21,7 @@ const stackLine = [
     "Core Web Vitals",
     "GA4"
 ];
-const profileSignals = ["Performance Optimization", "Website Localization", "OTA Systems"];
+const profileSignals = ["React / Next.js", "Production UI", "Clean Architecture"];
 
 export function Hero() {
     const reduceMotion = useReducedMotion();
@@ -34,7 +34,7 @@ export function Hero() {
                         <div className="inline-flex max-w-full items-center gap-2 rounded-full border border-cyan-glow/20 bg-cyan-glow/10 px-3 py-2 text-xs text-cyan-100 shadow-soft-glow sm:px-4 sm:text-sm">
                             <Sparkles className="size-4 shrink-0" aria-hidden="true" />
                             <TypewriterText
-                                text="Senior front-end work across complex, high-traffic, and data-intensive products."
+                                text="Production front-end work across React, Next.js, dashboards, booking flows, and API-driven products."
                                 speed={18}
                                 delay={260}
                                 className="min-w-0 text-center sm:text-start"
@@ -116,7 +116,7 @@ export function Hero() {
                                 </div>
                                 <div className="flex items-center gap-2 font-mono text-[11px] text-soft sm:text-xs">
                                     <Terminal className="size-4" aria-hidden="true" />
-                                    senior-frontend.ts
+                                    frontend-developer.ts
                                 </div>
                             </div>
 
@@ -178,7 +178,7 @@ export function Hero() {
                                         <p className="ms-4 text-soft">
                                             <span className="text-violet-glow">domain</span>:{" "}
                                             <span className="text-cyan-glow">
-                                                &quot;Product Engineering + OTA + Real-Time UI&quot;
+                                                &quot;React + Next.js + Product UI&quot;
                                             </span>
                                             ,
                                         </p>
@@ -186,9 +186,9 @@ export function Hero() {
                                             <span className="text-violet-glow">systems</span>:{" "}
                                             <span className="text-cyan-glow">
                                                 <span className="text-soft">[</span>
-                                                &quot;Multi-Tenant&quot;<span className="text-soft">, </span>
+                                                &quot;Dashboards&quot;<span className="text-soft">, </span>
                                                 &quot;Booking&quot;<span className="text-soft">, </span>
-                                                &quot;Real-Time&quot;
+                                                &quot;API-Driven&quot;
                                                 <span className="text-soft">]</span>
                                             </span>
                                             ,

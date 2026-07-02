@@ -27,16 +27,16 @@ export type FocusArea = {
 
 export const profile = {
     name: "Amir Tofigh",
-    role: "Senior Front-End Engineer",
-    location: "Iran · Available for remote, hybrid, or relocation",
+    role: "Front-End Developer (React / Next.js)",
+    location: "Tabriz, Iran · Open to relocate, remote, or hybrid work",
     email: "amir.tgh1381@gmail.com",
     phone: "+989032522311",
     phoneBreak: "+98 903 252 2311",
     linkedIn: "https://linkedin.com/in/amirtofigh",
     headline:
-        "Senior Front-End Engineer building large-scale OTA platforms, white-label systems, and real-time product interfaces.",
-    intro: "I lead front-end architecture on high-traffic, data-intensive products, turning multi-service flows, supplier APIs, and multi-tenant requirements into fast, polished, maintainable experiences.",
-    availability: "Open to senior front-end, React.js, Next.js, OTA, real-time UI, and product engineering roles.",
+        "Front-End Developer with 5+ years of experience building production web applications with React, Next.js, TypeScript, Redux Toolkit, and modern UI systems.",
+    intro: "I build production web applications with React, Next.js, TypeScript, Redux Toolkit, and modern UI systems, with experience across dashboards, admin panels, booking flows, real-time interfaces, and API-driven products.",
+    availability: "Open to front-end, React.js, Next.js, and product engineering roles.",
     resumePath: "/Amir-Tofigh-Resume.pdf",
     socials: [
         { label: "Email", href: "mailto:amir.tgh1381@gmail.com" },
@@ -48,14 +48,14 @@ export const profile = {
 
 export const stats = [
     { value: "5+", label: "Years building production front-ends" },
-    { value: "12+", label: "Complex product interfaces delivered" },
-    { value: "90+", label: "Performance score target for key pages" },
-    { value: "60K+", label: "Users reached across shipped products" }
+    { value: "9", label: "Selected projects featured in my resume" },
+    { value: "200+", label: "Crypto assets supported in trading products" },
+    { value: "React", label: "Core stack with Next.js and TypeScript" }
 ] as const;
 
 export const navItems = [
     { label: "Work", href: "#work" },
-    { label: "Systems", href: "#systems" },
+    { label: "Strengths", href: "#systems" },
     { label: "Projects", href: "#projects" },
     { label: "Skills", href: "#skills" },
     { label: "Contact", href: "#contact" }
@@ -63,269 +63,193 @@ export const navItems = [
 
 export const experiences: Experience[] = [
     {
-        company: "Ipek Yolu Araz - GoToSafar",
-        location: "Full-time onsite · Tabriz, Iran",
+        company: "Ipek Yolu Araz (GoToSafar)",
+        location: "Full-time - Hybrid · Tabriz, Iran",
         role: "Senior Front-End Engineer",
         period: "May 2023 - Present",
         summary:
-            "Leading front-end architecture across GoToSafar's OTA ecosystem, including the main booking platform, admin panel, GoToCruise, and partner white-label deployments.",
+            "Primary front-end developer for GoToSafar's booking platform, admin panel, GoToCruise, and white-label partner products.",
         achievements: [
-            "Architected front-end flows for a multi-service platform spanning 8 product verticals, coordinating complex state, supplier APIs, and user journeys across each.",
-            "Built a scalable white-label system that powers multiple independently branded travel agency platforms from one shared front-end core.",
-            "Improved Core Web Vitals and production performance through bundle optimization, rendering strategy, and performance-first architecture."
+            "Built scalable React/Next.js interfaces for flights, hotels, cruises, car rental, transfers, tours, visa, and related travel flows.",
+            "Developed reusable front-end architecture for multi-tenant, multi-language, and multi-currency products from a shared codebase.",
+            "Improved performance, state management, localization, and API integration across production booking and admin features.",
+            "Collaborated with backend and product teams to ship features from planning and UI implementation through release."
         ],
-        stack: [
-            "Next.js",
-            "React",
-            "TypeScript",
-            "Axios",
-            "PWA",
-            "Tailwind CSS",
-            "Website Localization",
-            "Performance Optimization",
-            "etc."
-        ]
+        stack: ["React.js", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS", "Bootstrap", "i18n", "Axios", "PWA", "GA4"]
     },
     {
-        company: "Negin Fannavaran Arta",
-        location: "Part-time remote · Iran",
+        company: "Mahan Pardakht / Negin Fannavaran Arta",
+        location: "Full-time - Hybrid · Tabriz, Iran",
         role: "Front-End Developer",
-        period: "Oct 2022 - Jan 2024",
+        period: "January 2022 - April 2023",
         summary:
-            "Developed front-end interfaces across fintech, real-time gold trading, cryptocurrency, AI, security consulting, memorial sites, and internal platforms.",
+            "Built and maintained React/Next.js interfaces for fintech, crypto, gold trading, AI, security, and business platforms.",
         achievements: [
-            "Built real-time trading dashboards and crypto payment UIs with live data feeds, complex state handling, and wallet integrations.",
-            "Contributed to Telim, a personal AI platform with per-user private spaces for data, memories, and contextual assistance.",
-            "Owned full UI lifecycles from architecture to deployment inside a 6-engineer cross-functional product team."
+            "Developed real-time trading dashboards, wallet/payment UIs, KYC/account flows, and admin interfaces using REST APIs and WebSocket updates.",
+            "Contributed to crypto and trading products with 200+ coin support, live price feeds, wallet operations, and transaction tracking.",
+            "Delivered responsive UI and reusable components across multiple products while improving usability, performance, and maintainability."
         ],
-        stack: ["React", "Next.js", "TypeScript", "WebSocket", "Axios", "PWA", "Performance Optimization", "etc."]
-    },
-    {
-        company: "Mahan Pardakht Asia",
-        location: "Full-time hybrid · Tabriz, Iran",
-        role: "Front-End Developer",
-        period: "Jul 2021 - Sep 2022",
-        summary:
-            "Built the front-end of an OTC cryptocurrency exchange from scratch, covering trading interfaces, wallet dashboards, and account flows.",
-        achievements: [
-            "Implemented WebSocket-driven real-time price feeds across trading views for 200+ coins and tokens.",
-            "Developed KYC onboarding with live video capture plus fraud and suspicious-activity alerting interfaces.",
-            "Supported product growth to 16K+ registered users and roughly 300 daily active users through iterative UX improvements."
-        ],
-        stack: ["React", "Next.js", "TypeScript", "WebSocket", "PWA", "Real-Time Systems", "etc."]
+        stack: ["React.js", "Next.js", "TypeScript", "Redux Toolkit", "Axios", "WebSocket", "Sass", "PWA"]
     },
     {
         company: "Web Negah",
-        location: "Contract · Tehran, Iran",
-        role: "Front-End Developer",
-        period: "Nov 2022 - Feb 2023",
-        summary:
-            "Architected and built the entire front-end of Asan Tahator from scratch as the sole front-end developer.",
+        location: "Contract - Remote · Tehran, Iran",
+        role: "Front-End Developer (Contract)",
+        period: "November 2022 - February 2023",
+        summary: "Built the Asan Tahator front end from scratch using Next.js, GraphQL, Redux Toolkit, and Sass.",
         achievements: [
-            "Delivered a modern e-commerce front-end using Next.js, GraphQL, Redux Toolkit, and Sass.",
-            "Built responsive, pixel-perfect UI across device sizes with a focus on performance and maintainability.",
-            "Created a maintainable architecture that translated complex commerce requirements into clear user flows."
+            "Delivered responsive, pixel-accurate UI with clean component structure and maintainable styling.",
+            "Built a maintainable e-commerce front end using modern React, GraphQL, Redux Toolkit, and Sass."
         ],
-        stack: ["Next.js", "GraphQL", "Redux Toolkit", "Sass", "Responsive UI"]
+        stack: ["Next.js", "GraphQL", "Redux Toolkit", "Sass"]
     }
 ];
 
 export const focusAreas: FocusArea[] = [
     {
-        title: "Multi-Service OTA Architecture",
+        title: "Production Web Applications",
         description:
-            "Complex travel search and booking flows across location, date, passenger, country, supplier, currency, and language dimensions.",
-        signal: "Flights · Hotels · Cruises · Transfers · Tours · Visa"
+            "React, Next.js, TypeScript, Redux Toolkit, and modern UI systems for real products, not static demos.",
+        signal: "React · Next.js · TypeScript · Redux Toolkit"
     },
     {
-        title: "White-Label Front-End Systems",
+        title: "Dashboards, Admin Panels & Booking Flows",
         description:
-            "A shared front-end core that can safely power multiple branded agency experiences with isolated themes, content, and configuration.",
-        signal: "Multi-tenant UI · Partner platforms · Configurable branding"
+            "Scalable interfaces for operations, reservations, user management, product flows, and complex multi-step journeys.",
+        signal: "Dashboards · Admin panels · Booking UX"
     },
     {
-        title: "Real-Time Product Interfaces",
+        title: "API-Driven & Real-Time Interfaces",
         description:
-            "High-frequency WebSocket interfaces for trading dashboards, crypto rates, wallet flows, gold trading, and live operational data.",
-        signal: "WebSocket · 200+ assets · Live state"
+            "Front-end products connected to REST, GraphQL, Axios, WebSocket updates, live data, wallet flows, and transaction tracking.",
+        signal: "REST · GraphQL · WebSocket · Axios"
     },
     {
-        title: "Performance & Localization",
+        title: "Performance, Localization & Maintainability",
         description:
-            "Core Web Vitals, bundle optimization, rendering strategy, GA4 e-commerce tracking, and i18next locale architecture.",
-        signal: "CWV · SSR/SSG · i18n · GA4"
+            "Clean architecture, responsive UI, Core Web Vitals, bundle optimization, i18n, GA4, and maintainable front-end code.",
+        signal: "CWV · Responsive UI · i18n · GA4"
     }
 ];
 
 export const projects: Project[] = [
     {
         title: "GoToSafar",
-        eyebrow: "Full-Scale OTA Platform",
+        eyebrow: "Travel Booking Platform",
         summary:
-            "A production travel platform covering flights, hotels, cruises, car rental, transfers, tours, residences, and visa services with multi-language and multi-currency support.",
-        details: [
-            "Led front-end development across high-intent booking flows and supplier API-powered travel experiences.",
-            "Structured complex data mapping between third-party providers, product state, and user-facing reservation flows.",
-            "Built performance-conscious pages and reusable product UI for a large, multi-service OTA ecosystem."
-        ],
-        stack: ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind", "REST", "GA4"],
-        impact: "OTA Product",
+            "Multi-service travel booking platform supporting flights, hotels, cruises, car rental, tours, transfers, and visa services.",
+        details: [],
+        stack: ["React.js", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS", "GA4"],
+        impact: "Travel Product",
         status: "Production",
         url: "https://gotosafar.com/en/home"
     },
     {
         title: "GoToCruise",
-        eyebrow: "Cruise Booking System",
-        summary:
-            "A cruise tour booking platform with real-time availability, multi-language support, and end-to-end booking flows.",
-        details: [
-            "Designed cruise-specific user flows around availability, passenger details, reservation steps, and content-heavy tour pages.",
-            "Integrated booking states with supplier-driven data and reusable OTA components.",
-            "Maintained a premium responsive experience across search, detail, and checkout touchpoints."
-        ],
-        stack: ["Next.js", "React", "TypeScript", "Redux Toolkit", "i18n"],
-        impact: "Travel Vertical Expansion",
+        eyebrow: "Cruise Booking Platform",
+        summary: "Cruise booking platform with real-time availability and end-to-end reservation flows.",
+        details: [],
+        stack: ["React.js", "Next.js", "TypeScript", "Redux Toolkit", "i18n"],
+        impact: "Booking Flow",
         status: "Production",
         url: "https://gotocruise.tr/en"
     },
     {
         title: "GTS White-Label",
-        eyebrow: "Multi-tenant platform system",
-        summary:
-            "A white-label OTA architecture enabling partner agencies to launch independent branded booking platforms from one shared front-end core.",
-        details: [
-            "Architected isolated themes, agency content, and configuration without duplicating the product codebase.",
-            "Created scalable UI foundations for partner-specific travel flows and branded experiences.",
-            "Reduced long-term maintenance by separating shared product logic from tenant presentation concerns."
-        ],
-        stack: ["Next.js", "TypeScript", "Tailwind", "i18n", "Config Architecture"],
-        impact: "Multi-Tenant Architecture",
-        status: "Architecture",
+        eyebrow: "White-Label Platform",
+        summary: "White-label booking platform powering multiple partner brands from a shared front-end codebase.",
+        details: [],
+        stack: ["Next.js", "TypeScript", "i18n", "Tailwind CSS", "Multi-Tenant UI"],
+        impact: "Partner Products",
+        status: "Production",
         url: "https://ipek.travel/en"
     },
     {
         title: "Cross-Device SMS Management Platform",
-        eyebrow: "Full-stack utility product",
+        eyebrow: "Full-Stack Utility Product",
         summary:
-            "A cross-device SMS management system with a Next.js dashboard, Fastify backend, Android SMS gateway, and Telegram bot control layer.",
-        details: [
-            "Built a web dashboard for managing Android SMS across web, iOS, and Telegram workflows.",
-            "Connected the front-end to a Fastify backend and Android gateway for practical cross-device operations.",
-            "Designed the product around reliable states, clear control surfaces, and operational visibility."
-        ],
+            "Cross-device SMS platform with a Next.js dashboard, Android gateway, Fastify backend, and Telegram integration.",
+        details: [],
         stack: ["Next.js", "Fastify", "Android Gateway", "Telegram Bot", "TypeScript"],
-        impact: "End-to-End System",
+        impact: "Utility Product",
         status: "Full-Stack",
         url: "https://atsmsgatewaydemo.vercel.app"
     },
     {
+        title: "Personal Portfolio",
+        eyebrow: "Developer Portfolio",
+        summary: "Personal portfolio built with Next.js, TypeScript, Tailwind CSS, and SEO-focused responsive design.",
+        details: [],
+        stack: ["Next.js", "TypeScript", "Tailwind CSS", "Motion", "SEO"],
+        impact: "Personal Brand",
+        status: "Live",
+        url: "https://amirtofigh.vercel.app"
+    },
+    {
         title: "IRExchanger",
-        eyebrow: "OTC cryptocurrency exchange",
-        summary:
-            "A crypto exchange interface supporting 200+ coins with real-time rates, buy/sell flows, wallet dashboards, transaction tracking, and KYC onboarding.",
-        details: [
-            "Built trading views from scratch with WebSocket-driven price updates and responsive market UI.",
-            "Implemented wallet and transaction flows for Bitcoin, Ethereum, Fantom, and other assets.",
-            "Contributed UX improvements for a platform that reached 16K+ registered users and about 300 daily active users."
-        ],
-        stack: ["React", "Next.js", "TypeScript", "WebSocket", "PWA", "Blockchain UI"],
-        impact: "Real-Time Fintech Product",
-        status: "Fintech",
+        eyebrow: "OTC Cryptocurrency Exchange",
+        summary: "OTC cryptocurrency exchange with 200+ coins, live market data, and wallet integrations.",
+        details: [],
+        stack: ["React.js", "Next.js", "TypeScript", "WebSocket", "PWA"],
+        impact: "Fintech Product",
+        status: "Production",
         url: "http://irexchanger.org/"
     },
     {
         title: "Telim",
-        eyebrow: "AI and Fintech Platform",
-        summary:
-            "A multi-purpose platform spanning fintech, gold trading, cryptocurrency, and AI-driven personal assistance with per-user private data spaces.",
-        details: [
-            "Contributed dynamic user-driven UI patterns for private data spaces, memories, and contextual assistance.",
-            "Worked on product areas that demanded flexible state handling and fast iteration across AI and fintech features.",
-            "Collaborated inside a cross-functional engineering team across automation, AI vision, and product interfaces."
-        ],
-        stack: ["React", "Next.js", "TypeScript", "Axios", "PWA"],
-        impact: "AI-Assisted Product UI",
-        status: "Multi-Purpose",
+        eyebrow: "AI & Fintech Platform",
+        summary: "AI-powered platform combining fintech, crypto, gold trading, and personalized user workspaces.",
+        details: [],
+        stack: ["React.js", "Next.js", "TypeScript", "Axios", "PWA"],
+        impact: "AI Product UI",
+        status: "Product UI",
         url: "https://telim.ir"
     },
     {
         title: "TripGate",
         eyebrow: "Visa Appointment Platform",
-        summary:
-            "A booking platform for US embassy appointment scheduling and visa application services with a streamlined, user-focused interface.",
-        details: [
-            "Built reusable components to clarify complex visa and appointment flows.",
-            "Focused on fast loading, responsive design, and direct task completion for service users.",
-            "Delivered a clean UI that reduces friction across high-stress application steps."
-        ],
-        stack: ["Next.js", "Tailwind", "Reusable Components", "Performance"],
-        impact: "Visa Service UX",
+        summary: "Visa and US embassy appointment platform with a streamlined booking experience.",
+        details: [],
+        stack: ["Next.js", "Tailwind CSS", "Responsive UI", "Reusable Components"],
+        impact: "Service Booking",
         status: "Client Work",
         url: "https://tripgate.us"
     },
     {
         title: "Asan Tahator",
         eyebrow: "E-Commerce Platform",
-        summary:
-            "A commerce platform built from scratch as the sole front-end developer with modern architecture and fully responsive UI.",
-        details: [
-            "Architected product, commerce, and account interfaces using Next.js, GraphQL, Redux Toolkit, and Sass.",
-            "Delivered pixel-perfect responsive screens across device sizes.",
-            "Kept the implementation maintainable while moving quickly through contract delivery constraints."
-        ],
+        summary: "E-commerce platform built from scratch with Next.js and a fully responsive user interface.",
+        details: [],
         stack: ["Next.js", "GraphQL", "Redux Toolkit", "Sass"],
-        impact: "E-Commerce Front-End",
+        impact: "E-Commerce UI",
         status: "Client Work",
         url: "https://aatcart.com/"
-    },
-    {
-        title: "Personal Portfolio",
-        eyebrow: "Developer Brand Website",
-        summary:
-            "A modern portfolio website showcasing my experience, projects, skills, and personal brand with a polished dark UI.",
-        details: [
-            "Built a premium hero with personal photo, logo branding, and macOS-style code profile card.",
-            "Created responsive sections for projects, experience, skills, and contact.",
-            "Added smooth animations and performance-conscious UI patterns."
-        ],
-        stack: ["Next.js", "TypeScript", "Tailwind", "Motion", "React", "Responsive UI"],
-        impact: "Personal Brand",
-        status: "Live Portfolio",
-        url: "https://amirtofigh.vercel.app"
     }
 ];
 
 export const skillGroups = [
     {
-        title: "Core Engineering",
-        skills: [
-            "React.js",
-            "Next.js",
-            "TypeScript",
-            "JavaScript",
-            "Redux Toolkit",
-            "Component Architecture",
-            "Design Systems"
-        ]
+        title: "Front-End",
+        skills: ["React.js", "Next.js", "TypeScript", "JavaScript", "Redux Toolkit", "Tailwind CSS", "Sass", "Bootstrap"]
     },
     {
-        title: "APIs & Real-Time",
-        skills: ["REST", "GraphQL", "WebSocket", "Axios", "Supplier APIs", "Blockchain Wallet UI", "Live Data Feeds"]
+        title: "APIs & Data",
+        skills: ["REST", "GraphQL", "Axios", "WebSocket", "i18n", "GA4 Ecommerce Tracking"]
     },
     {
-        title: "Rendering & Performance",
-        skills: ["SSR", "SSG", "PWA", "Rendering Strategy", "Responsive UI", "Core Web Vitals", "Bundle Optimization"]
+        title: "Performance & Tooling",
+        skills: ["SSR", "SSG", "PWA", "Core Web Vitals", "Bundle Optimization", "Git", "Python Basics", "Linux Basics"]
     },
     {
-        title: "Product & Tooling",
-        skills: ["Tailwind CSS", "Sass", "Bootstrap", "i18n", "GA4", "Git", "Linux", "Python"]
+        title: "Product UI",
+        skills: ["Dashboards", "Admin Panels", "Booking Flows", "Real-Time Interfaces", "Responsive UI", "Clean Architecture"]
     }
 ] as const;
 
 export const principles = [
-    "Architect for scale before the UI becomes hard to change",
-    "Make complex flows feel calm, direct, and predictable",
-    "Treat performance, localization, and analytics as product requirements",
-    "Build reusable foundations instead of one-off screens",
-    "Balance polished UI craft with production engineering constraints"
+    "Build clean, maintainable front-end code that other developers can extend",
+    "Make complex product flows feel simple, responsive, and predictable",
+    "Treat performance, localization, and accessibility as part of the product",
+    "Use reusable components and shared architecture instead of one-off screens",
+    "Balance polished UI craft with practical production delivery"
 ] as const;

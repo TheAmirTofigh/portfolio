@@ -2,8 +2,8 @@
 
 import { motion, useReducedMotion } from "motion/react";
 
-const lineOne = ["Senior", "Front-End", "Engineer"];
-const lineTwo = ["who", "turns", "complex", "product", "requirements", "into", "fast,", "maintainable", "interfaces"];
+const lineOne = ["Front-End", "Developer", "React", "/", "Next.js"];
+const lineTwo = ["building", "fast,", "responsive,", "maintainable", "product", "interfaces"];
 
 export function AnimatedHeadline() {
     const shouldReduceMotion = useReducedMotion();
@@ -12,7 +12,7 @@ export function AnimatedHeadline() {
     return (
         <h1 className="mt-7 max-w-5xl text-balance text-[2.25rem] md:text-[2.8rem] font-semibold leading-[0.88] tracking-[-0.075em] text-white sm:leading-[0.86] lg:max-w-6xl">
             <span className="sr-only">
-                Senior Front-End Engineer who turns complex product requirements into fast, maintainable interfaces.
+                Front-End Developer building fast, responsive, maintainable product interfaces with React and Next.js.
             </span>
             <span
                 aria-hidden="true"
@@ -20,7 +20,7 @@ export function AnimatedHeadline() {
             >
                 {words.map((word, index) => {
                     const isGradient =
-                        word === "complex" || word === "Front-End" || word === "interfaces" || word === "requirements";
+                        word === "React" || word === "Next.js" || word === "Front-End" || word === "interfaces";
 
                     return (
                         <span key={`${word}-${index}`} className="pb-1">

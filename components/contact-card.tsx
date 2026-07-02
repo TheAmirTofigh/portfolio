@@ -28,14 +28,12 @@ export function ContactCard() {
                                     Contact
                                 </p>
                                 <h2 className="mt-4 text-balance text-[2rem] md:text-[2.8rem] font-bold leading-[1.1] tracking-[-0.065em] text-white">
-                                    Looking for a Senior{" "}
-                                    <span className="text-gradient whitespace-nowrap"> Front-End </span> Engineer Who
-                                    Can Own the Whole Front?
+                                    Looking for a{" "}
+                                    <span className="text-gradient whitespace-nowrap"> React / Next.js </span> Developer Who
+                                    Can Own the Front End?
                                 </h2>
                                 <p className="mt-6 max-w-2xl text-pretty text-base leading-8 text-soft">
-                                    I can help with Next.js architecture, complex booking flows, real-time dashboards,
-                                    white-label front-end systems, admin panels, localization, Core Web Vitals, and
-                                    premium responsive UI delivery.
+                                    I can help with production React and Next.js applications, dashboards, admin panels, booking flows, API integrations, localization, Core Web Vitals, and responsive UI delivery.
                                 </p>
                             </div>
 

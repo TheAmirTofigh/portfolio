@@ -37,19 +37,18 @@ export default function OpenGraphImage() {
                 }}
             >
                 <div style={{ color: "#67e8f9", fontSize: 28, letterSpacing: 8, textTransform: "uppercase" }}>
-                    Senior Front-End Engineer
+                    Front-End Developer
                 </div>
                 <div>
                     <h1 style={{ fontSize: 82, letterSpacing: -5, lineHeight: 1, margin: 0 }}>{profile.name}</h1>
                     <p style={{ color: "#d8e2ef", fontSize: 34, lineHeight: 1.35, marginTop: 28, maxWidth: 860 }}>
-                        Next.js, React, TypeScript, OTA platforms, white-label systems, and real-time product
-                        interfaces.
+                        React, Next.js, TypeScript, Redux Toolkit, dashboards, booking flows, and API-driven product interfaces.
                     </p>
                 </div>
                 <div style={{ color: "#8b98aa", display: "flex", fontSize: 26, gap: 24 }}>
-                    <span>OTA Architecture</span>
+                    <span>React / Next.js</span>
                     <span>·</span>
-                    <span>Realtime UI</span>
+                    <span>Product UI</span>
                     <span>·</span>
                     <span>Performance</span>
                 </div>
