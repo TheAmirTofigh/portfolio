@@ -1,7 +1,7 @@
 {
     "name": "Amir Tofigh Portfolio",
     "short_name": "Amir Tofigh",
-    "description": "Front-End Developer portfolio focused on React, Next.js, TypeScript, production web applications, dashboards, booking flows, and responsive UI.",
+    "description": "Front-End Engineer portfolio focused on React, Next.js, TypeScript, production web applications, dashboards, booking flows, and responsive UI.",
     "start_url": "/",
     "scope": "/",
     "display": "standalone",

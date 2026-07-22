@@ -14,7 +14,7 @@ export function ContactCard() {
         <Reveal>
             <section id="contact" className="section-shell py-8 md:py-16">
                 <motion.div
-                    className="glow-border glass relative overflow-hidden rounded-[2.25rem] p-[1px] md:rounded-[2.5rem]"
+                    className="glow-border glass relative overflow-hidden rounded-[2.25rem] p-px md:rounded-[2.5rem]"
                     whileHover={reduceMotion ? undefined : { y: -3 }}
                     transition={{ duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
                 >
@@ -29,7 +29,7 @@ export function ContactCard() {
                                 </p>
                                 <h2 className="mt-4 text-balance text-[2rem] md:text-[2.8rem] font-bold leading-[1.1] tracking-[-0.065em] text-white">
                                     Looking for a{" "}
-                                    <span className="text-gradient whitespace-nowrap"> React / Next.js </span> Developer Who
+                                    <span className="text-gradient whitespace-nowrap"> React / Next.js </span> Engineer Who
                                     Can Own the Front End?
                                 </h2>
                                 <p className="mt-6 max-w-2xl text-pretty text-base leading-8 text-soft">

@@ -12,7 +12,7 @@ export const siteConfig = {
     name: `${profile.name} Portfolio`,
     title: `${profile.name} - ${profile.role}`,
     description:
-        "Front-End Developer portfolio focused on React, Next.js, TypeScript, Redux Toolkit, dashboards, admin panels, booking flows, API-driven products, performance, localization, and responsive UI.",
+        "Front-End Engineer portfolio focused on React, Next.js, TypeScript, Redux Toolkit, dashboards, admin panels, booking flows, API-driven products, performance, localization, and responsive UI.",
     url: siteUrl,
     locale: "en_US",
     ogImage: "/opengraph-image",
@@ -21,7 +21,7 @@ export const siteConfig = {
     keywords: [
         profile.name,
         profile.role,
-        "Front-End Developer Portfolio",
+        "Front-End Engineer Portfolio",
         "React Developer",
         "Next.js Developer",
         "TypeScript Developer",

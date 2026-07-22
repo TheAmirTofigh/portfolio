@@ -27,29 +27,29 @@ export type FocusArea = {
 
 export const profile = {
     name: "Amir Tofigh",
-    role: "Front-End Developer (React / Next.js)",
+    role: "Front-End Engineer (React / Next.js)",
     location: "Tabriz, Iran · Open to relocate, remote, or hybrid work",
     email: "amir.tgh1381@gmail.com",
     phone: "+989032522311",
     phoneBreak: "+98 903 252 2311",
     linkedIn: "https://linkedin.com/in/amirtofigh",
     headline:
-        "Front-End Developer with 5+ years of experience building production web applications with React, Next.js, TypeScript, Redux Toolkit, and modern UI systems.",
-    intro: "I build production web applications with React, Next.js, TypeScript, Redux Toolkit, and modern UI systems, with experience across dashboards, admin panels, booking flows, real-time interfaces, and API-driven products.",
+        "Front-End Engineer with 4+ years of experience building production web applications with React, Next.js, TypeScript, Redux Toolkit, and modern UI systems.",
+    intro: "I'm a front-end engineer with 4+ years building production web applications in React, Next.js, and TypeScript. I'm currently the primary front-end owner of a multi-product travel booking platform, covering flights, hotels, cruises, car rental, and white-label partner sites, all built on one shared, multi-tenant codebase across multiple languages and currencies. Earlier, I built real-time trading dashboards and wallet interfaces for a fintech and crypto platform. I like owning things end to end: architecture, state management, and the details that only show up once real users do.",
     availability: "Open to front-end, React.js, Next.js, and product engineering roles.",
     resumePath: "/Amir-Tofigh-Resume.pdf",
+    github: "https://github.com/TheAmirTofigh",
     socials: [
         { label: "Email", href: "mailto:amir.tgh1381@gmail.com" },
         { label: "LinkedIn", href: "https://linkedin.com/in/amirtofigh" },
-        { label: "GitHub", href: "#contact" },
-        { label: "GitLab", href: "#contact" }
+        { label: "GitHub", href: "https://github.com/TheAmirTofigh" }
     ]
 } as const;
 
 export const stats = [
-    { value: "5+", label: "Years building production front-ends" },
-    { value: "9", label: "Selected projects featured in my resume" },
-    { value: "200+", label: "Crypto assets supported in trading products" },
+    { value: "4+", label: "Years building production front-ends" },
+    { value: "8", label: "Selected projects featured in my resume" },
+    { value: "5000+", label: "Users across projects in production" },
     { value: "React", label: "Core stack with Next.js and TypeScript" }
 ] as const;
 
@@ -65,15 +65,15 @@ export const experiences: Experience[] = [
     {
         company: "Ipek Yolu Araz (GoToSafar)",
         location: "Full-time - Hybrid · Tabriz, Iran",
-        role: "Senior Front-End Engineer",
+        role: "Front-End Engineer",
         period: "May 2023 - Present",
         summary:
-            "Primary front-end developer for GoToSafar's booking platform, admin panel, GoToCruise, and white-label partner products.",
+            "Primary front-end owner of GoToSafar's booking platform, admin panel, GoToCruise, and white-label partner products.",
         achievements: [
             "Built scalable React/Next.js interfaces for flights, hotels, cruises, car rental, transfers, tours, visa, and related travel flows.",
             "Developed reusable front-end architecture for multi-tenant, multi-language, and multi-currency products from a shared codebase.",
             "Improved performance, state management, localization, and API integration across production booking and admin features.",
-            "Collaborated with backend and product teams to ship features from planning and UI implementation through release."
+            "Own features end to end, from architecture through release, working with backend and product teams rather than only implementing designs."
         ],
         stack: ["React.js", "Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS", "Bootstrap", "i18n", "Axios", "PWA", "GA4"]
     },
@@ -157,7 +157,7 @@ export const projects: Project[] = [
     {
         title: "GTS White-Label",
         eyebrow: "White-Label Platform",
-        summary: "White-label booking platform powering multiple partner brands from a shared front-end codebase.",
+        summary: "White-label booking platform powering multiple partner brands from the same shared codebase as GoToSafar.",
         details: [],
         stack: ["Next.js", "TypeScript", "i18n", "Tailwind CSS", "Multi-Tenant UI"],
         impact: "Partner Products",
@@ -168,22 +168,12 @@ export const projects: Project[] = [
         title: "Cross-Device SMS Management Platform",
         eyebrow: "Full-Stack Utility Product",
         summary:
-            "Cross-device SMS platform with a Next.js dashboard, Android gateway, Fastify backend, and Telegram integration.",
+            "Cross-device SMS management system with a Next.js dashboard, Android gateway app, Fastify backend, and Telegram-based notifications. Built independently, outside of work.",
         details: [],
         stack: ["Next.js", "Fastify", "Android Gateway", "Telegram Bot", "TypeScript"],
         impact: "Utility Product",
-        status: "Full-Stack",
+        status: "Independent Project",
         url: "https://atsmsgatewaydemo.vercel.app"
-    },
-    {
-        title: "Personal Portfolio",
-        eyebrow: "Developer Portfolio",
-        summary: "Personal portfolio built with Next.js, TypeScript, Tailwind CSS, and SEO-focused responsive design.",
-        details: [],
-        stack: ["Next.js", "TypeScript", "Tailwind CSS", "Motion", "SEO"],
-        impact: "Personal Brand",
-        status: "Live",
-        url: "https://amirtofigh.vercel.app"
     },
     {
         title: "IRExchanger",

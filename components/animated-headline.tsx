@@ -2,7 +2,7 @@
 
 import { motion, useReducedMotion } from "motion/react";
 
-const lineOne = ["Front-End", "Developer", "React", "/", "Next.js"];
+const lineOne = ["Front-End", "Engineer", "React", "/", "Next.js"];
 const lineTwo = ["building", "fast,", "responsive,", "maintainable", "product", "interfaces"];
 
 export function AnimatedHeadline() {
@@ -12,7 +12,7 @@ export function AnimatedHeadline() {
     return (
         <h1 className="mt-7 max-w-5xl text-balance text-[2.25rem] md:text-[2.8rem] font-semibold leading-[0.88] tracking-[-0.075em] text-white sm:leading-[0.86] lg:max-w-6xl">
             <span className="sr-only">
-                Front-End Developer building fast, responsive, maintainable product interfaces with React and Next.js.
+                Front-End Engineer building fast, responsive, maintainable product interfaces with React and Next.js.
             </span>
             <span
                 aria-hidden="true"

@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowUpRight, Cpu, Gauge, Layers3, Mail, Radio } from "lucide-react";
-import { LinkedInIcon } from "@/components/social-icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/social-icons";
 import { motion, useReducedMotion } from "motion/react";
 import { ContactCard } from "@/components/contact-card";
 import { ExperienceTimeline } from "@/components/experience-timeline";
@@ -83,7 +83,7 @@ export function HomePage() {
                     <SectionHeading
                         eyebrow="Selected Projects"
                         title="Selected Projects Across Front-End Product Work"
-                        description="These projects show the range behind the resume: travel booking, white-label products, real-time crypto interfaces, AI platforms, full-stack utilities, visa services, e-commerce, and personal branding."
+                        description="These projects show the range behind the resume: travel booking, white-label products, real-time crypto interfaces, AI platforms, full-stack utilities, visa services, and e-commerce."
                     />
                     <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
                         {projects.map((project, index) => (
@@ -176,6 +176,14 @@ export function HomePage() {
                             rel="noreferrer"
                         >
                             <LinkedInIcon className="size-4" /> LinkedIn
+                        </a>
+                        <a
+                            className="focus-ring inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 transition hover:border-white/25 hover:text-white"
+                            href={profile.github}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <GitHubIcon className="size-4" /> GitHub
                         </a>
                         <a
                             className="focus-ring inline-flex items-center gap-2 rounded-full border border-white/10 px-4 py-2 transition hover:border-white/25 hover:text-white"

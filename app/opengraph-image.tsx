@@ -37,7 +37,7 @@ export default function OpenGraphImage() {
                 }}
             >
                 <div style={{ color: "#67e8f9", fontSize: 28, letterSpacing: 8, textTransform: "uppercase" }}>
-                    Front-End Developer
+                    Front-End Engineer
                 </div>
                 <div>
                     <h1 style={{ fontSize: 82, letterSpacing: -5, lineHeight: 1, margin: 0 }}>{profile.name}</h1>
