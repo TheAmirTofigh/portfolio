@@ -28,7 +28,7 @@ export type FocusArea = {
 export const profile = {
     name: "Amir Tofigh",
     role: "Front-End Engineer (React / Next.js)",
-    location: "Tabriz, Iran · Open to relocate, remote, or hybrid work",
+    location: "Tehran, Iran · Open to relocate, remote, or hybrid work",
     email: "amir.tgh1381@gmail.com",
     phone: "+989032522311",
     phoneBreak: "+98 903 252 2311",

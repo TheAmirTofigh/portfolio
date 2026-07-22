@@ -128,7 +128,7 @@ export function getPortfolioJsonLd() {
             sameAs: [profile.linkedIn],
             address: {
                 "@type": "PostalAddress",
-                addressLocality: "Tabriz",
+                addressLocality: "Tehran",
                 addressCountry: "IR"
             },
             knowsAbout: skills,
